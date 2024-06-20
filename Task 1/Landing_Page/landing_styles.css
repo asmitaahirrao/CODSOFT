@@ -1,0 +1,197 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #4B3621; 
+}
+
+h1, h2, h3 {
+    font-family: 'Proza Libre', sans-serif; 
+    font-size: 2rem; 
+}
+
+p, span, .service-item h3 {
+    font-family: 'Lora', serif; 
+    font-size: 1.5rem; 
+}
+
+header {
+    background: #FFFFFF; 
+    padding: 10px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #191970; 
+    color: white;
+}
+
+.contact-info span,
+.social-icons a {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #FFFFFF; 
+}
+
+.logo h1 {
+    margin: 0;
+    color: #DC143C; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4B3621; 
+        }
+
+.cta-buttons .btn {
+    background: #FF1493; 
+    color: #4B3621; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+    .cta-buttons .btn:hover {
+        background-color: #E0E0C0; 
+    }
+
+.hero {
+    background: url('https://b.zmtcdn.com/data/reviews_photos/8bb/f0e657a5713a6d11897f33829620f8bb_1664345526.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*') no-repeat center center/cover;
+    color: black; 
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content .btn {
+    background: #DC143C; 
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+    .hero-content .btn:hover {
+        background-color: #B22222; 
+    }
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #191970, #FF1493); 
+    color: white;
+    text-align: left; 
+}
+
+    .services .service {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        text-align: left; 
+    }
+
+        .services .service img {
+            margin-right: 20px;
+            max-width: 50px; 
+            height: auto;
+        }
+
+        .services .service div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .services .service h3 {
+            margin: 0;
+        }
+
+        .services .service p {
+            margin: 10px 0 0; 
+        }
+
+.about {
+    background: url('https://www.shutterstock.com/shutterstock/photos/541065139/display_1500/stock-photo-beautiful-abstract-grunge-decorative-light-blue-cyan-painted-stucco-wall-texture-handmade-rough-541065139.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    .about .btn {
+        background: #191970; 
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease;
+    }
+
+        .about .btn:hover {
+            background-color: #000080; 
+        }
+
+.our-services {
+    background: url('https://media.istockphoto.com/id/1369274625/vector/abstract-diagonal-lines-white-background-with-smooth-stripes-minimal-website-backdrop.jpg?s=612x612&w=0&k=20&c=TEN1TaY7nkekMC5HbE6-F1T5Pe96bLx-Tu2Dugy3SYE=') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    .our-services .service-item {
+        display: inline-block;
+        width: 30%;
+        margin: 0 1.5%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+    }
+
+        .our-services .service-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .our-services .service-item h3 {
+            margin: 10px 0 0;
+        }
+
+        .our-services .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+footer {
+    background-color: #191970; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
