@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A0AF99D-F094-42BA-A754-3EC5FF9E3FDA}"
+	ProjectSection(SolutionItems) = preProject
+		calculator.html = calculator.html
+		script.js = script.js
+		styles.css = styles.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {400118C7-8226-437D-9C60-BE9D644281BB}
+	EndGlobalSection
+EndGlobal
